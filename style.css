@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.number {
+  height: 75px;
+  width: 75px;
+  border-radius: 37.5px;
+  background-color: lightpink;
+  text-align: center;
+  line-height: 75px;
+  outline-style: dashed;
+  font-size: 32px;
+  font-family: arial;
+  position: absolute;
+}
+
+.operation {
+  height: 85px;
+  width: 85px;
+  border-radius: 42.5px;
+  background-color: greenyellow;
+  text-align: center;
+  line-height: 85px;
+  outline-style: solid;
+  font-size: 32px;
+  font-family: arial;
+  position: absolute;
+}
+
+.complete {
+  visibility: hidden;
+}
+
+#star {
+  width: 125px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+#complete-text {
+  position: absolute;
+  top: 130px;
+  left: 51px;
+  font-style: bold;
+  font-size: 18px;
+}
+
+#answer {
+  position: absolute;
+  top: 72.5px;
+  left: 137.5px;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  font-size: 36px;
+  text-align: center;
+}
+
+#reset {
+  top: 335px;
+  left: 145px;
+  font-size: 28px;
+}
+
+#topleft {
+  top: 150px;
+  left: 100px;
+}
+
+#topmiddle {
+  top: 150px;
+  left: 200px;
+}
+
+#topright {
+  top: 150px;
+  left: 300px;
+}
+
+#bottomleft {
+  top: 250px;
+  left: 100px;
+}
+
+#bottommiddle {
+  top: 250px;
+  left: 200px;
+}
+
+#bottomright {
+  top: 250px;
+  left: 300px;
+}
+
+#addition {
+  top: 55px;
+  left: 345px;
+}
+
+#subtraction {
+  top: 145px;
+  left: 395px;
+}
+
+#division {
+  top: 245px;
+  left: 395px;
+}
+
+#multiplication {
+  top: 335px;
+  left: 345px;
+}

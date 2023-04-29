@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p class='number'id='topleft'onclick="select('0')"></p>
+  <p class='number'id='topmiddle'onclick="select('1')"></p>
+  <p class='number'id='topright'onclick="select('2')"></p>
+  <p class='number'id='bottomleft'onclick="select('3')"></p>
+  <p class='number'id='bottommiddle'onclick="select('4')"></p>
+  <p class='number'id='bottomright'onclick="select('5')"></p>
+  <p class='operation'id='division'onclick="selectOperation('division')">÷</p>
+  <p class='operation'id='multiplication'onclick="selectOperation('multiplication')">×</p>
+  <p class='operation'id='addition'onclick="selectOperation('addition')">+</p>
+  <p class='operation'id='subtraction'onclick="selectOperation('subtraction')">−</p>
+  <p class='operation'id='reset'onclick="reset()">Reset</p>
+  <p id='answer'></p>
+  <img id='star' class='complete' src="images/gold star.png" alt="Level Complete!">
+  <p id='complete-text' class='complete'>Complete!</p>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
